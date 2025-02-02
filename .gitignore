@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Bun
+bun.lockb
+
+# Привремени фајлови
+*.log
+*.tmp
+
+# Оперативни системи
+.DS_Store            
+Thumbs.db            
+
+# Конфигурација IDE-а
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Локалне конфигурације
+.env
+
+# Build фајлови
+dist/
+build/

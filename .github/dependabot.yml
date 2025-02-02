@@ -1,0 +1,8 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Или "yarn" или "bun"
+    directory: "/" # Локација где се налази твой package.json
+    schedule:
+      interval: "daily" # Периодичност ажурирања (daily, weekly, monthly)
+    commit-message:
+      prefix: "❄️" # Префикс за commit поруку
